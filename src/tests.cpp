@@ -3,8 +3,13 @@
 IRsend irsend;
 
 
-void test_lan(void){
+void tb200_tunning(void){
+  Serial.println('oi');
+  delay(3000);
+}
 
+
+void test_lan(void){
 
   irsend.sendNEC(input, 32);
   delay(test_delay);

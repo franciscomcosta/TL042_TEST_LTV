@@ -16,6 +16,31 @@ void setup(){
   pinMode(LED, OUTPUT);
 }
 
+void loop(){
+
+  digitalWrite(LED, HIGH);
+
+  if(digitalRead(Button1) == HIGH){
+    digitalWrite(LED, LOW);
+    input_test();
+  }
+
+  if(digitalRead(Button2) == HIGH){
+    digitalWrite(LED, LOW);
+    tunnig();
+  }
+
+  if(digitalRead(Button3) == HIGH){
+    digitalWrite(LED, LOW);
+    test_lan();
+}
+
+  if(digitalRead(Button4) == HIGH){
+    digitalWrite(LED, LOW);
+    wifi_aging();
+  }
+
+}
 
 
 /*
@@ -41,40 +66,3 @@ ChromeCast Desligado (OK) (12 sec)
 
 
 */
-
-
-
-void loop(){
-
-  digitalWrite(LED, HIGH);
-
-  if(digitalRead(Button1) == HIGH){
-    digitalWrite(LED, LOW);
-    //input_test();
-    //tunning_tl046();
-    //test_lan();
-    usb_test();
-    
-    }
-
-  if(digitalRead(Button2) == HIGH){
-    digitalWrite(LED, LOW);
-    test_lamb_hdmi_tunner();
-    //tunnig();
-  }
-
-  if(digitalRead(Button3) == HIGH){
-    digitalWrite(LED, LOW);
-    test_lan();
-    //wifi_aging();
-  }
-
-  if(digitalRead(Button4) == HIGH){
-    digitalWrite(LED, LOW);
-    //usb_test();
-    //step_4_init_config();
-    h_factory();
-  }
-
-}
-
