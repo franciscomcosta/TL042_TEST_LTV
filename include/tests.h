@@ -4,7 +4,9 @@
 #include <IRremote.h>
 #include "values.h"
 
-void tb200_tunning(void);
+
+/* PROTÓTIPO LINHA DE PA EXPLCK UTILIZANDO TL042 */
+
 void init_config(void);
 void step_1_init_config(void);
 void step_2_init_config(void);
@@ -16,13 +18,15 @@ void input_test(void);
 void wifi_aging(void);
 void usb_test(void);
 void test_lan(void);
-void pa_1(void);
-void pa_2(void);
+void test_lamb_hdmi_tunner(void); //TESTE REDUZIDO
+
+
+/* TESTES LINHA DE PRODUTO ACABADO */
+
+void pa_1(void); // HDMI, CORES E VOLUME
+void pa_2(void); //USB E RESET
 void h_factory(void);
 void h_tunning(void);
 
-//Estou fazendo uma mudança
-
-void test_lamb_hdmi_tunner(void);
 
 #endif

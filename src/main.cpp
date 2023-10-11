@@ -22,12 +22,12 @@ void loop(){
 
   if(digitalRead(Button1) == HIGH){
     digitalWrite(LED, LOW);
-    input_test();
+    pa_1();
   }
 
   if(digitalRead(Button2) == HIGH){
     digitalWrite(LED, LOW);
-    tunnig();
+    pa_2();
   }
 
   if(digitalRead(Button3) == HIGH){

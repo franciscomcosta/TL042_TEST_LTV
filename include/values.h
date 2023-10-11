@@ -9,39 +9,39 @@
 
 
 
-#define power      0xFEA857
-#define ok         0xFE08F7
-#define input      0xFE48B7
-#define menu       0xFEE817
-#define mute       0xFE6897
-#define arrowUp    0xFE30CF
-#define arrowDown  0xFEB04F
-#define arrowRight 0xFE708F
-#define arrowLeft  0xFEF00F
-#define back       0xFEC837
-#define exitBtn    0xFE8877
-#define play       0xFEC23D
-#define stopBtn    0xFED22D
-#define ginga      0xFE926D
-#define audio      0xFE12ED
-#define homeBtn    0xFE42BD
-#define rec        0xFE50AF
-#define volUp      0xFE58A7
-#define volDown    0xFED827
-#define ChUp       0xFE9867
-#define ChDown     0xFE18E7
-#define info       0xFE28D7
-#define google     0xFEB24D
-#define netflix    0xFEF20D
-#define prime      0xFE38C7
-#define youtube    0xFE728D
-#define playStore  0xFE32CD
-#define epg        0xFED02F
-#define key1       0xFE807F
-#define key4       0xFE20DF
-#define key5       0xFEA05F
-#define key7       0xFEE01F
-#define dot        0xFE02FD
+#define exp_power      0xFEA857
+#define exp_ok         0xFE08F7
+#define exp_input      0xFE48B7
+#define exp_menu       0xFEE817
+#define exp_mute       0xFE6897
+#define exp_arrowUp    0xFE30CF
+#define exp_arrowDown  0xFEB04F
+#define exp_arrowRight 0xFE708F
+#define exp_arrowLeft  0xFEF00F
+#define exp_back       0xFEC837
+#define exp_exitBtn    0xFE8877
+#define exp_play       0xFEC23D
+#define exp_stopBtn    0xFED22D
+#define exp_ginga      0xFE926D
+#define exp_audio      0xFE12ED
+#define exp_homeBtn    0xFE42BD
+#define exp_rec        0xFE50AF
+#define exp_volUp      0xFE58A7
+#define exp_volDown    0xFED827
+#define exp_ChUp       0xFE9867
+#define exp_ChDown     0xFE18E7
+#define exp_info       0xFE28D7
+#define exp_google     0xFEB24D
+#define exp_netflix    0xFEF20D
+#define exp_prime      0xFE38C7
+#define exp_youtube    0xFE728D
+#define exp_playStore  0xFE32CD
+#define exp_epg        0xFED02F
+#define exp_key1       0xFE807F
+#define exp_key4       0xFE20DF
+#define exp_key5       0xFEA05F
+#define exp_key7       0xFEE01F
+#define exp_dot        0xFE02FD
 
 
 /* HISENSE FACTORY COMMANDS */
